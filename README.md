@@ -57,6 +57,7 @@ It’s ideal for beginners wanting to try out FastAPI or for anyone needing a mi
    cd FastAPI-Tutorial
    
 2. Create and activate a virtual environment:
+   
    **Windows**
    ```bash
    python -m venv venv
@@ -68,7 +69,7 @@ It’s ideal for beginners wanting to try out FastAPI or for anyone needing a mi
    python3 -m venv venv
    source venv/bin/activate
 
-3. Install requirements
+4. Install requirements
    ```bash
    pip install fastapi[all]
 
