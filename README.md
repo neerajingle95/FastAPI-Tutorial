@@ -55,3 +55,30 @@ It’s ideal for beginners wanting to try out FastAPI or for anyone needing a mi
    ```bash
    git clone https://github.com/neerajingle95/FastAPI-Tutorial.git
    cd FastAPI-Tutorial
+   
+2. Create and activate a virtual environment:
+   **Windows**
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+   
+   **macOS / Linux**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Install requirements
+   ```bash
+   pip install fastapi[all]
+
+## Running the Application
+The PowerShell commands required to run the application and try out sample HTTP requests are all provided in the commands.sh file.
+
+## API Documentation
+Once server is running, browse to:
+
+- Swagger UI → http://127.0.0.1:8000/docs
+- ReDoc → http://127.0.0.1:8000/redoc
+
+These pages show interactive docs where you can try out endpoints without using curl.
